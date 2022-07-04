@@ -37,6 +37,7 @@ vignettes/*.pdf
 *.knit.md
 *.hwpx
 *.docx
+*.hwp
 # R Environment Variables
 .Renviron
 
@@ -49,3 +50,4 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 Documents/*.pdf
+Data/Codebook_national.Rmd
