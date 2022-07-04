@@ -11,7 +11,7 @@
 
 # Example code in package build process
 *-Ex.R
-
+reby_election.R
 # Output files from R CMD build
 /*.tar.gz
 
@@ -48,4 +48,4 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 Documents/
-
+/Documents/
