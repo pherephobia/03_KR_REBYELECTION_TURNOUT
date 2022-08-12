@@ -16,6 +16,10 @@ theme_set(theme_bw())
 ## Data imports ----------------------------------------------------------------
 reby_election <- readRDS("D:/Dropbox/Scholar/2_Graduates/2021_03_Fall/03_재보궐선거/Data/analysis_data.RDS")
 
+reby_election |> mutate(
+  mean_diff_pres = PRESIDENT_POSITIVE - mean(reby_election$PRESIDENT_POSITIVE, na.rm = T)
+) -> reby_election
+
 lm(ELEC_TURNOUT ~ 
      ELEC_REASON_RE1  + revn + lnGenDiff + PRESIDENT_POSITIVE + I(PRESIDENT_POSITIVE^2) +
      ELEC_NUMBER + ELEC_RULING + ELEC_OPPOSITION + ELEC_COMPETE  + PRE_TURNOUT,
@@ -90,7 +94,7 @@ ggeffects::ggpredict(model2A, terms = c("ELEC_REASON_RE1")) |> plot()
 ggeffects::ggpredict(model2B, terms = c("ELEC_REASON_RE2")) |> plot() + labs(x = "\n재보궐 선거 시행 사유", y = "재보궐 선거 투표율(%)\n",
                                                                              title = NULL)
 ggeffects::ggpredict(model2C, terms = c("ELEC_REASON_RE3")) |> plot()
-ggeffects::ggpredict(model2D, terms = c("ELEC_REASON_RE0")) |> plot()
+ggeffects::ggpredict(model2E, terms = c("ELEC_REASON_RE0")) |> plot()
 
 glm(identical ~ ELEC_ILLEGAL2 + revn + lnGenDiff +  
       ELEC_RULING + ELEC_OPPOSITION + ELEC_COMPETE + PRESIDENT_POSITIVE + I(PRESIDENT_POSITIVE^2) +
@@ -113,7 +117,7 @@ texreg::screenreg(list(bimodel1),
                   single.row = T)
 
 
-ggeffects::ggpredict(bimodel1, terms = c("ELEC_ILLEGAL2")) |> plot() + labs(x = "\n비위에 따른 강제사퇴로 인한 재보궐 여부", 
+ ㅜggeffects::ggpredict(bimodel1, terms = c("ELEC_ILLEGAL2")) |> plot() + labs(x = "\n비위에 따른 강제사퇴로 인한 재보궐 여부", 
                                                                             y = "재보궐 선거를 야기한 정당 후보가 재보궐 선거에서 당선될 예측확률(%)\n",
                                                                             title = NULL)
 ggeffects::ggpredict(bimodel2, terms = c("ELEC_ILLEGAL")) |> plot()

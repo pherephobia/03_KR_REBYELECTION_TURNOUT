@@ -1,0 +1,10 @@
+\contentsline {section}{Data Descriptions}{2}{section*.2}%
+\contentsline {subsection}{재보궐 선거 변수}{2}{section*.3}%
+\contentsline {subsection}{재보궐 당선자 변수}{8}{section*.4}%
+\contentsline {subsection}{재보궐 2위득표자 변수}{8}{section*.5}%
+\contentsline {subsection}{재보궐 선거 직전 총선 변수}{8}{section*.6}%
+\contentsline {subsection}{재보궐 선거 직후 총선 변수}{11}{section*.7}%
+\contentsline {subsection}{기타 선거 관련 변수}{12}{section*.8}%
+\contentsline {section}{APPENDIX}{16}{section*.9}%
+\contentsline {subsection}{재보궐 선거 지역구에 대한 간략한 정보}{16}{section*.10}%
+\contentsline {subsection}{주요 변수의 기술통계}{22}{section*.11}%

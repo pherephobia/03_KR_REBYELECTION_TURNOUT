@@ -82,7 +82,7 @@
 \author{Sanghoon Park\footnote{Department of Political Science,
   University of South Carolina, Columbia, 29208, 817 Henderson Street,
   Columbia, S.C., United States; \url{pherephobia@gmail.com}}}
-\date{2022-6-22}
+\date{2022-7-13}
 
 \begin{document}
 \maketitle
@@ -110,7 +110,7 @@
 \begin{description}
 \item[\textbf{ELEC\_DATE}]
 선거일(DATE), 재보궐선거가 실시된 연-월-일 (1989년 민주화 이후의
-시점(1989-04-14)부터 현재(2022-6-22)까지 최신화).
+시점(1989-04-14)부터 현재(2022-7-13)까지 최신화).
 \end{description}
 
 \begin{figure}
@@ -153,9 +153,42 @@
 \caption{재보궐 선거 사유}
 \end{figure}
 
+\begin{description}
+\item[ELEC\_REASON\_RE]
+재보궐 시행 사유 (재코딩, FCT). 1: 일신상의 이유로 사직/사퇴, 2: 비위를
+저질렀으나 스스로 사직/사퇴, 3: 비위로 인하여 사법적으로
+당선무효/선거무효 처리
+\end{description}
+
+\begin{table}[H]
+
+\caption{재보궐 선거 시행 사유}
+\centering
+\begin{tabular}[t]{l|r|r|r}
+\hline
+  & 일신상의  & 비위로 인한 & 비위로 인해\\
+  & 이유로 사직/사퇴 & 자진 사직/사퇴 & 사법적 당선무효/선거무효\\
+\hline
+당선무효 & 0 & 2 & 52\\
+\hline
+사망 & 17 & 0 & 0\\
+\hline
+사직 & 42 & 6 & 1\\
+\hline
+사퇴 & 0 & 5 & 0\\
+\hline
+선거무효 & 0 & 0 & 10\\
+\hline
+의원직상실 & 0 & 0 & 4\\
+\hline
+피선거권상실 & 0 & 0 & 7\\
+\hline
+\end{tabular}
+\end{table}
+
 \begin{figure}
 \centering
-\includegraphics{Codebook_national_files/figure-latex/unnamed-chunk-4-1.pdf}
+\includegraphics{Codebook_national_files/figure-latex/unnamed-chunk-5-1.pdf}
 \caption{재보궐 시행 사유별 투표율}
 \end{figure}
 
@@ -167,13 +200,13 @@
 
 \begin{figure}
 \centering
-\includegraphics{Codebook_national_files/figure-latex/unnamed-chunk-5-1.pdf}
+\includegraphics{Codebook_national_files/figure-latex/unnamed-chunk-6-1.pdf}
 \caption{재보궐 선거 경쟁률의 분포}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics{Codebook_national_files/figure-latex/unnamed-chunk-6-1.pdf}
+\includegraphics{Codebook_national_files/figure-latex/unnamed-chunk-7-1.pdf}
 \caption{재보궐 시행 사유별 경쟁률}
 \end{figure}
 
@@ -185,7 +218,7 @@
 
 \begin{figure}
 \centering
-\includegraphics{Codebook_national_files/figure-latex/unnamed-chunk-7-1.pdf}
+\includegraphics{Codebook_national_files/figure-latex/unnamed-chunk-8-1.pdf}
 \caption{재보궐 선거 경쟁률의 분포}
 \end{figure}
 
@@ -197,7 +230,7 @@
 
 \begin{figure}
 \centering
-\includegraphics{Codebook_national_files/figure-latex/unnamed-chunk-8-1.pdf}
+\includegraphics{Codebook_national_files/figure-latex/unnamed-chunk-9-1.pdf}
 \caption{재보궐 선거 경쟁률의 분포}
 \end{figure}
 
@@ -209,12 +242,12 @@
 
 \begin{figure}
 \centering
-\includegraphics{Codebook_national_files/figure-latex/unnamed-chunk-9-1.pdf}
+\includegraphics{Codebook_national_files/figure-latex/unnamed-chunk-10-1.pdf}
 \caption{재보궐 선거 경쟁률의 분포}
 \end{figure}
 
 \begin{longtable}[t]{l|r|r|r|r}
-\caption{\label{tab:unnamed-chunk-10}재보궐경쟁률 측정지표의 상관관계표}\\
+\caption{\label{tab:unnamed-chunk-11}재보궐경쟁률 측정지표의 상관관계표}\\
 \hline
   & 선거경쟁도 & 선거경쟁도1 & 선거경쟁도2 & 선거경쟁도3\\
 \hline
@@ -291,7 +324,7 @@
 
 \begin{figure}
 \centering
-\includegraphics{Codebook_national_files/figure-latex/unnamed-chunk-12-1.pdf}
+\includegraphics{Codebook_national_files/figure-latex/unnamed-chunk-13-1.pdf}
 \caption{재보궐 선거 직전 총선 투표율 변수의 분포}
 \end{figure}
 
@@ -313,7 +346,7 @@
 
 \begin{figure}
 \centering
-\includegraphics{Codebook_national_files/figure-latex/unnamed-chunk-13-1.pdf}
+\includegraphics{Codebook_national_files/figure-latex/unnamed-chunk-14-1.pdf}
 \caption{재보궐 직전 총선 경쟁률의 분포}
 \end{figure}
 
@@ -327,7 +360,7 @@
 
 \begin{figure}
 \centering
-\includegraphics{Codebook_national_files/figure-latex/unnamed-chunk-14-1.pdf}
+\includegraphics{Codebook_national_files/figure-latex/unnamed-chunk-15-1.pdf}
 \caption{재보궐 선거 직전 총선 투표율과 재보궐 선거 투표율 간 관계}
 \end{figure}
 
@@ -354,7 +387,7 @@
 
 \begin{figure}
 \centering
-\includegraphics{Codebook_national_files/figure-latex/unnamed-chunk-15-1.pdf}
+\includegraphics{Codebook_national_files/figure-latex/unnamed-chunk-16-1.pdf}
 \caption{재보궐 선거 직후 총선 투표율 변수의 분포}
 \end{figure}
 
@@ -376,7 +409,7 @@
 
 \begin{figure}
 \centering
-\includegraphics{Codebook_national_files/figure-latex/unnamed-chunk-16-1.pdf}
+\includegraphics{Codebook_national_files/figure-latex/unnamed-chunk-17-1.pdf}
 \caption{재보궐 직후 총선 경쟁률의 분포}
 \end{figure}
 
@@ -405,17 +438,40 @@
 
 \begin{figure}
 \centering
-\includegraphics{Codebook_national_files/figure-latex/unnamed-chunk-17-1.pdf}
+\includegraphics{Codebook_national_files/figure-latex/unnamed-chunk-18-1.pdf}
 \caption{역대 대통령 임기 중 재보궐 선거 수}
 \end{figure}
 
 \begin{description}
 \item[PRESIDENT\_DATE]
-인접대선일자(DATE), 재보궐 선거로부터 가장 가까운 미래 인접 대선의 일자.
+인접 대선 일자(DATE), 재보궐 선거로부터 가장 가까운 미래 인접 대선의
+일자.
 \item[PRESIDENT\_DIFF]
-인접대선일자차이(NUM), 인접대선일자 - 선거일.
+인접 대선 일자 차이(NUM), 인접대선일자 - 선거일.
 \item[PRESIDENT\_TENURE]
 대통령임기\_남은햇수(NUM), 재보궐 선거 당시 남은 대통령 임기(햇수).
+\item[LOCAL\_DATE]
+인접 지선 일자(DATE), 재보궐 선거로부터 가장 가까운 미래 인접 지선의
+일자.
+\item[LOCAL\_DIFF]
+인접 지선 일자 차이(NUM), 인접지선일자 - 선거일.
+\item[NATL\_DATE]
+인접 전국단위 선거일자(DATE), 재보궐 선거로부터 가장 가까운 미래 인접
+전국단위 선거의 일자.
+\item[NATL\_DIFF]
+인접 전국단위 선거 일자 차이(NUM), 인접 전국단위 선거 일자 - 선거일.
+\end{description}
+
+\begin{figure}
+\centering
+\includegraphics{Codebook_national_files/figure-latex/unnamed-chunk-19-1.pdf}
+\caption{재보궐 선거와 인접 선거 간 일자 차이 (총선/대선/지선/전국단위
+선거)}
+\end{figure}
+
+\newpage
+
+\begin{description}
 \item[PRESIDENT\_POSITIVE]
 대통령\_평가(긍정)(NUM), 재보궐선거가 실시된 시점 이전의 시기에서 가장
 근접한 시점에 조사된 여론조사 전문기관인 한국갤럽이 조사한 주차별 대통령
@@ -428,7 +484,7 @@
 
 \begin{figure}
 \centering
-\includegraphics{Codebook_national_files/figure-latex/unnamed-chunk-18-1.pdf}
+\includegraphics{Codebook_national_files/figure-latex/unnamed-chunk-20-1.pdf}
 \caption{대통령 평가 (긍정/부정)}
 \end{figure}
 
@@ -475,14 +531,26 @@ PK (부울경) / 2 = TK (대구경북) / 3 = HN (호남) / 4 = 기타).
 
 \begin{figure}
 \centering
-\includegraphics{Codebook_national_files/figure-latex/unnamed-chunk-19-1.pdf}
+\includegraphics{Codebook_national_files/figure-latex/unnamed-chunk-21-1.pdf}
 \caption{사전투표제도 도입 전후 재보궐선거 투표율 비교(평균)}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics{Codebook_national_files/figure-latex/unnamed-chunk-20-1.pdf}
+\includegraphics{Codebook_national_files/figure-latex/unnamed-chunk-22-1.pdf}
 \caption{사전투표제도 도입 전후 재보궐선거 경쟁률 비교(평균)}
+\end{figure}
+
+\begin{description}
+\item[METROPOL]
+지역구 도시 규모(FCT), 광역시 및 특별시 = 1 / 중소도시 = 2 / 읍면지역 =
+3.
+\end{description}
+
+\begin{figure}
+\centering
+\includegraphics{Codebook_national_files/figure-latex/unnamed-chunk-23-1.pdf}
+\caption{재보궐 선거 시행 선거구의 도시 규모}
 \end{figure}
 
 \newpage
@@ -495,7 +563,7 @@ PK (부울경) / 2 = TK (대구경북) / 3 = HN (호남) / 4 = 기타).
 정보}\label{uxc7acuxbcf4uxad90-uxc120uxac70-uxc9c0uxc5eduxad6cuxc5d0-uxb300uxd55c-uxac04uxb7b5uxd55c-uxc815uxbcf4}}
 
 \begin{longtable}[t]{l|l|l|l|r}
-\caption{\label{tab:unnamed-chunk-21}재보궐선거 지역구 및 재보궐 사유에 대한 정보}\\
+\caption{\label{tab:unnamed-chunk-24}재보궐선거 지역구 및 재보궐 사유에 대한 정보}\\
 \hline
 재보궐 선거일 & 시도 & 지역구 & 재보궐 사유 & 투표율\\
 \hline
@@ -800,7 +868,7 @@ PK (부울경) / 2 = TK (대구경북) / 3 = HN (호남) / 4 = 기타).
 기술통계}\label{uxc8fcuxc694-uxbcc0uxc218uxc758-uxae30uxc220uxd1b5uxacc4}}
 
 \begin{longtable}[t]{l|r|r|r|r|r}
-\caption{\label{tab:unnamed-chunk-22}주요 변수의 기술통계}\\
+\caption{\label{tab:unnamed-chunk-25}주요 변수의 기술통계}\\
 \hline
 변수 & 관측치 & 평균 & 표준편차 & 최소값 & 최대값\\
 \hline
