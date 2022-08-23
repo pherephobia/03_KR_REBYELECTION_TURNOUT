@@ -35,12 +35,6 @@
   \KOMAoptions{parskip=half}}
 \makeatother
 \usepackage{xcolor}
-\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
-\hypersetup{
-  hidelinks,
-  pdfcreator={LaTeX via pandoc}}
-\urlstyle{same} % disable monospaced font for URLs
 \usepackage[margin=1in]{geometry}
 \usepackage{graphicx}
 \makeatletter
@@ -70,6 +64,12 @@
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
 
 \title{\Large \bf 민주화 이후 한국 국회의원 재보궐 선거 데이터 코드북}
 \usepackage{etoolbox}
@@ -82,7 +82,7 @@
 \author{Sanghoon Park\footnote{Department of Political Science,
   University of South Carolina, Columbia, 29208, 817 Henderson Street,
   Columbia, S.C., United States; \url{pherephobia@gmail.com}}}
-\date{2022-7-13}
+\date{2022-8-23}
 
 \begin{document}
 \maketitle
@@ -110,7 +110,7 @@
 \begin{description}
 \item[\textbf{ELEC\_DATE}]
 선거일(DATE), 재보궐선거가 실시된 연-월-일 (1989년 민주화 이후의
-시점(1989-04-14)부터 현재(2022-7-13)까지 최신화).
+시점(1989-04-14)부터 현재(2022-8-23)까지 최신화).
 \end{description}
 
 \begin{figure}
