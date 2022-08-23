@@ -1,6 +1,6 @@
 # 민주화 이후 한국 국회의원 재보궐 선거 데이터 코드북
 ## Coodbook for General Re/By-Election of South Korea
-### Sanghoon Park^[Department of Political Science, University of South Carolina, Columbia, 29208, 817 Henderson Street, Columbia, S.C., United States; [pherephobia@gmail.com](pherephobia@gmail.com)]
+### Sanghoon Park, Department of Political Science, University of South Carolina, Columbia, 29208, 817 Henderson Street, Columbia, S.C., United States; pherephobia@gmail.com
 ### "2022-8-23"
 ### 1989년 4월 14일부터 2022년 6월 1일까지의 재보궐 146개 선거가 분석대상이며, 이에 대한 자료는 중앙선거관리위원회의 홈페이지의 선거통계시스템 (http://info.nec.go.kr) 과 중앙선거관리위원회가 편찬한 '대한민국선거사'를 통해 획득하였다. 
 
