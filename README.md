@@ -1,6 +1,6 @@
 # 재·보궐 선거 시행 사유가 투표 참여와 결과에 미치는 영향 <img src="https://github.com/pherephobia/2020_Panmunjom/blob/master/Korean%20Politics.png" width="180" height= "200" align="right" /> <br /> 
 ## 민주화 이후 한국 국회의원 재‧보궐 선거에 대한 경험적 분석
-#### 박상훈 (미국 사우스캐롤라이나 주립대학교 정치학과 박사수료)
+#### 박상훈 (미국 사우스캐롤라이나 주립대학교 정치학과 박사수료), [Sanghoon Park](sp23@email.sc.edu)
 #### 305 Gambrell, 817 Henderson Street, Columbia, SC 29208, USA
 #### Abstract
 
@@ -11,12 +11,6 @@
 - This repository provides [data](https://github.com/pherephobia/03_KR_REBYELECTION_TURNOUT/blob/main/Data/reby_election.csv) and [codes](https://github.com/pherephobia/03_KR_REBYELECTION_TURNOUT/blob/main/Command_codes/replication_models.R) for replication.
 - The draft of this paper [pdf](https://github.com/pherephobia/03_KR_REBYELECTION_TURNOUT/blob/main/Documents/%EC%A0%95%EB%8B%B9%ED%95%99%ED%9A%8C%EB%B3%B4%20%ED%88%AC%EA%B3%A0%EC%9B%90%EA%B3%A0_%EC%88%98%EC%A0%95_220912.pdf) on here. 
 <br />
-
-## Acknowledgment
-The authors thank KIPA for granting a permission to utilize the high quality of dataset.
-
-## Authors
-1. [Sanghoon Park](sp23@email.sc.edu)
 
 ## 민주화 이후 한국 국회의원 재보궐 선거 데이터 코드북
 ### Coodbook for General Re/By-Election of South Korea
