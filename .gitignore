@@ -49,5 +49,6 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
-Documents/*.pdf
+Documents/Archive/*.pdf
 Data/Codebook_national.Rmd
+Data/*.log
