@@ -11,7 +11,7 @@
 
 #### Information
 - This is the repository for the research titled "Effect of reasons for re/by-election on voting participation and outcomes: An empirical examination of re/by-elections for the Korean National Assembly after democratization."
-  - Korean Party Studies Review (KPSR) *forthcoming*.
+  - Korean Party Studies Review (KPSR) 21(3): 41-80.
 - This repository provides [data](https://github.com/pherephobia/03_KR_REBYELECTION_TURNOUT/blob/main/Data/reby_election.csv), [codebook](https://github.com/pherephobia/03_KR_REBYELECTION_TURNOUT/blob/main/Data/Codebook_national.pdf) for data, and [codes](https://github.com/pherephobia/03_KR_REBYELECTION_TURNOUT/blob/main/Command_codes/replication_models.R) for replication.
 - The draft of this paper [pdf](https://github.com/pherephobia/03_KR_REBYELECTION_TURNOUT/blob/main/Documents/%ED%95%9C%EA%B5%AD%EC%A0%95%EB%8B%B9%ED%95%99%ED%9A%8C-%ED%95%9C%EA%B5%AD%EC%A0%95%EB%8B%B9%ED%95%99%ED%9A%8C%EB%B3%B4%20%EC%A0%9C21%EA%B6%8C%20%EC%A0%9C3%ED%98%B8-02%EB%B0%95%EC%83%81%ED%9B%88(3%EA%B5%90).pdf) on here. 
 <br />
